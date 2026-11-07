@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+
+# Resultados intermedios y materiales archivados: se regeneran localmente.
+circuitos_frame/
+circuitos_60/
+circuitos_60_extendidos/
+frames_20/
+landmarks_60/
+modelos/
+parametros_60/
+tres_datos/
+legacy/

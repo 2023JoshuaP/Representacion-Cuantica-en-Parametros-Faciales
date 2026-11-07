@@ -63,23 +63,6 @@ en la ruta declarada en `scripts/01_extraer_frames.py`. Los pasos posteriores
 registran resultados en los directorios indicados arriba. Para reproducir las
 versiones verificadas localmente, se puede usar `requirements-lock.txt`.
 
-## Informe
-
-El PDF de entrega es:
-
-```text
-docs/latex/entrega_final_con_caratula.pdf
-```
-
-Para compilarlo nuevamente se necesita una distribución LaTeX con `latexmk`:
-
-```bash
-cd docs/latex
-latexmk -pdf -interaction=nonstopmode -halt-on-error caratula.tex
-latexmk -pdf -interaction=nonstopmode -halt-on-error informe_final.tex
-pdfunite caratula.pdf informe_final.pdf entrega_final_con_caratula.pdf
-```
-
 ## Límites metodológicos
 
 - A y B fueron escogidos por proximidad temporal; C ilustra contraste clásico.

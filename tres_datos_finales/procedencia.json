@@ -1,0 +1,33 @@
+{
+  "purpose": "Tres datos finales para la comparación cuántica solicitada.",
+  "selection": {
+    "A": "A_0777 (31,08 s): primer frame del par temporalmente cercano.",
+    "B": "A_0778 (31,12 s): frame consecutivo, 0,04 s después de A.",
+    "C": "C_2555 (102,20 s): otro episodio, con patrón de parámetros distinto."
+  },
+  "selection_status": "Ilustrativa y declarada; no representa una muestra clínica ni se modificaron valores.",
+  "classical_representation": "Cinco valores normalizados cuantizados individualmente a enteros de 8 bits; concatenación de 40 bits.",
+  "quantization": "floor(255*x + 0.5), sin modificar x; bit más significativo a la izquierda.",
+  "feature_order": [
+    "EAR_33",
+    "EAR_362",
+    "MAR",
+    "yaw_proxy",
+    "luminancia"
+  ],
+  "expected_order": "A–B debe ser la menor distancia clásica; A–C y B–C deben ser mayores antes de calcular estados cuánticos.",
+  "classical_distances": [
+    {
+      "comparacion": "A–B",
+      "distancia_euclidiana_5_parametros": 0.057031951903450166
+    },
+    {
+      "comparacion": "A–C",
+      "distancia_euclidiana_5_parametros": 1.2592519574008814
+    },
+    {
+      "comparacion": "B–C",
+      "distancia_euclidiana_5_parametros": 1.2792672814941926
+    }
+  ]
+}

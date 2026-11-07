@@ -1,0 +1,9 @@
+{
+  "purpose": "Paso 11: tres circuitos extendidos principales.",
+  "operations": [
+    "H en los cinco qubits",
+    "Ry(pi*x_k) por parámetro",
+    "CNOT q0→q1→q2→q3→q4"
+  ],
+  "note": "Se compararán por fidelidad y se contrastarán contra la codificación producto simple."
+}

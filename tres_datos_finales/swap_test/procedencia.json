@@ -1,0 +1,9 @@
+{
+  "purpose": "Paso 13: estimación simulada de fidelidad con Swap Test.",
+  "registers": "1 qubit auxiliar + 5 qubits para el primer estado + 5 para el segundo = 11 qubits.",
+  "formula": "P(0)=(1+F)/2; F_estimada=2*N0/shots-1.",
+  "state_preparation": "Codificación extendida H + Ry(pi*x) + CNOT en cada registro de cinco qubits.",
+  "shots": 8192,
+  "seed": 20261107,
+  "execution": "Statevector ideal y muestreo de probabilidades; no hardware cuántico ni ruido físico."
+}

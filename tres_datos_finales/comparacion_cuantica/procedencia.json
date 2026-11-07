@@ -1,0 +1,8 @@
+{
+  "purpose": "Paso 12: comparación exacta por fidelidad de estados puros en simulación clásica.",
+  "method": "Qiskit state_fidelity(state1, state2), comprobada con |<psi|phi>|^2.",
+  "simple_formula": "Producto sobre k de cos^2(pi*(x_k-y_k)/2).",
+  "extended_result": "La fidelidad extendida coincide con la simple para estos circuitos; las H y CNOT fijas no alteran la fidelidad en esta codificación.",
+  "expectation": "A–B, seleccionado como par cercanamente temporal y clásicamente próximo, debe presentar mayor fidelidad que A–C y B–C.",
+  "execution": "Statevector ideal; no hardware cuántico ni ruido físico."
+}

@@ -1,0 +1,28 @@
+{
+  "purpose": "Paso 10: los tres circuitos principales para comparar fidelidad.",
+  "encoding": "q_k = Ry(pi*x_k)|0>, con x_k normalizado y orden fijo de cinco parámetros.",
+  "qubit_mapping": [
+    {
+      "qubit": "q_0",
+      "parameter": "EAR (contorno 33)"
+    },
+    {
+      "qubit": "q_1",
+      "parameter": "EAR (contorno 362)"
+    },
+    {
+      "qubit": "q_2",
+      "parameter": "MAR"
+    },
+    {
+      "qubit": "q_3",
+      "parameter": "Orientación horizontal"
+    },
+    {
+      "qubit": "q_4",
+      "parameter": "Luminancia facial"
+    }
+  ],
+  "note": "No se aplican puertas H, CNOT ni mediciones; la codificación producto permite interpretación directa.",
+  "state_dimension": 32
+}
